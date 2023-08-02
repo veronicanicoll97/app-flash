@@ -1,0 +1,2 @@
+
+exports.redisDB = require('./redis');

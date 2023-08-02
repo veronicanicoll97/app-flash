@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const { apiRoutes } = require('./routes');
+const { redisDB } = require('./database');
 
 const app = express();
 
